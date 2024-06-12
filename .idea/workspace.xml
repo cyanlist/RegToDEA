@@ -4,31 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5788b166-9d1f-4da8-9b8a-2d6389b1eb0e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/jenni.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_jupiter.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RegToDea.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/main/finiteStateMachine/FiniteStateMachineImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/main/finiteStateMachine/FiniteStateMachineInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/main/finiteStateMachine/FiniteStateMachineOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/main/finiteStateMachine/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/main/finiteStateMachine/Transition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/main/gui/StringInputReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/main/postfix/ExpressionConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/main/postfix/ExpressionEvaluator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/test/tests/ExpressionConverterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/test/tests/ExpressionEvaluatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/test/tests/StateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/test/tests/TransitionTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="5788b166-9d1f-4da8-9b8a-2d6389b1eb0e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -272,8 +248,17 @@
       <workItem from="1717955100113" duration="10599000" />
       <workItem from="1718002829697" duration="10325000" />
       <workItem from="1718058950252" duration="3605000" />
-      <workItem from="1718179814130" duration="17754000" />
+      <workItem from="1718179814130" duration="18408000" />
     </task>
+    <task id="LOCAL-00001" summary="add project progess">
+      <option name="closed" value="true" />
+      <created>1718220864694</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1718220864694</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,5 +274,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add project progess" />
+    <option name="LAST_COMMIT_MESSAGE" value="add project progess" />
   </component>
 </project>
