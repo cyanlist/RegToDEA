@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5788b166-9d1f-4da8-9b8a-2d6389b1eb0e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/jenni.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_jupiter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RegToDea.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/main/finiteStateMachine/FiniteStateMachineImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/main/finiteStateMachine/FiniteStateMachineInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/main/finiteStateMachine/FiniteStateMachineOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/main/finiteStateMachine/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/main/finiteStateMachine/Transition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/main/gui/StringInputReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/main/postfix/ExpressionConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/main/postfix/ExpressionEvaluator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/test/tests/ExpressionConverterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/test/tests/ExpressionEvaluatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/test/tests/StateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/test/tests/TransitionTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2eKKNvcmf26WYynqRkhtiQkk0er" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ExpressionEvaluator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PostfixEvaluator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringInputReader.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.github.geje1017.regToDEA.convertToDEAVersuch3.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.github.geje1017.regToDEA.ea.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.github.geje1017.regToDEA.main.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.github.geje1017.regToDEA.main.gui.StringInputReader.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.github.geje1017.regToDEA.postfix.ExpressionEvaluator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.github.geje1017.regToDEA.sonstiges.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.DEATest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DEATest.firstTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DEATest.testKleeneClosure.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DEATest.testSetUp.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ExpressionConverterTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ExpressionConverterTest.infixToPostfix_basicTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ExpressionConverterTest.test_concatenation.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StateTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StateTest.testGetName.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StateTest.testSetBlankName.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StateTest.testSetNullName.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TransitionTest.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW&quot;: &quot;true&quot;,
+    &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW&quot;: &quot;true&quot;,
+    &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH&quot;: &quot;393&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jenni/OneDrive/Dokumente/02_Hobbies/Programming/GitHub/repositories/cyanlist&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.19628906&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propGUI&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jenni\OneDrive\Dokumente\02_Hobbies\Programming\IntelliJ\RegToDEA\src" />
+      <recent name="C:\Users\jenni\OneDrive\Dokumente\02_Hobbies\Programming\IntelliJ\RegToDEA\src\com\github\geje1017\regToDEA\convertToDEAVersuch3" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.com.github.geje1017.regToDEA.main.Main">
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.github.geje1017.regToDEA.convertToDEAVersuch1.Main" />
+      <module name="RegToDea" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="RegToDea" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringInputReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.geje1017.regToDEA.gui.StringInputReader" />
+      <module name="RegToDea" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.geje1017.regToDEA.gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.github.geje1017.regToDEA.main.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.geje1017.regToDEA.main.Main" />
+      <module name="RegToDea" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.geje1017.regToDEA.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.github.geje1017.regToDEA.main.gui.StringInputReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.geje1017.regToDEA.main.gui.StringInputReader" />
+      <module name="RegToDea" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.geje1017.regToDEA.main.gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StateTest.testSetBlankName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RegToDea" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.geje1017.regToDEA.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.geje1017.regToDEA.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.github.geje1017.regToDEA.tests.StateTest" />
+      <option name="METHOD_NAME" value="testSetBlankName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StateTest.testSetNullName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RegToDea" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.geje1017.regToDEA.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.geje1017.regToDEA.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.github.geje1017.regToDEA.tests.StateTest" />
+      <option name="METHOD_NAME" value="testSetNullName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.com.github.geje1017.regToDEA.main.Main" />
+      <item itemvalue="Application.com.github.geje1017.regToDEA.main.gui.StringInputReader" />
+      <item itemvalue="Application.StringInputReader" />
+      <item itemvalue="JUnit.StateTest.testSetBlankName" />
+      <item itemvalue="JUnit.StateTest.testSetNullName" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.com.github.geje1017.regToDEA.main.Main" />
+        <item itemvalue="Application.com.github.geje1017.regToDEA.main.gui.StringInputReader" />
+        <item itemvalue="Application.StringInputReader" />
+        <item itemvalue="JUnit.StateTest.testSetNullName" />
+        <item itemvalue="JUnit.StateTest.testSetBlankName" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5788b166-9d1f-4da8-9b8a-2d6389b1eb0e" name="Changes" comment="" />
+      <created>1711647797217</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711647797217</updated>
+      <workItem from="1711647798400" duration="1294000" />
+      <workItem from="1711891384280" duration="2069000" />
+      <workItem from="1712323367686" duration="2154000" />
+      <workItem from="1712334933143" duration="5634000" />
+      <workItem from="1712929677370" duration="25244000" />
+      <workItem from="1713166511964" duration="2542000" />
+      <workItem from="1713265583059" duration="2303000" />
+      <workItem from="1713340430336" duration="2562000" />
+      <workItem from="1713349139235" duration="5645000" />
+      <workItem from="1713356149686" duration="17946000" />
+      <workItem from="1713391121654" duration="551000" />
+      <workItem from="1713440640093" duration="12943000" />
+      <workItem from="1713533680073" duration="5623000" />
+      <workItem from="1713561125215" duration="8785000" />
+      <workItem from="1713608635345" duration="5862000" />
+      <workItem from="1713683032270" duration="15036000" />
+      <workItem from="1713731653627" duration="71000" />
+      <workItem from="1713731842994" duration="3410000" />
+      <workItem from="1713861303788" duration="9037000" />
+      <workItem from="1713890536931" duration="22722000" />
+      <workItem from="1714739099983" duration="692000" />
+      <workItem from="1714739814350" duration="4068000" />
+      <workItem from="1714891154363" duration="659000" />
+      <workItem from="1716892929646" duration="127000" />
+      <workItem from="1717769924545" duration="5609000" />
+      <workItem from="1717955100113" duration="10599000" />
+      <workItem from="1718002829697" duration="10325000" />
+      <workItem from="1718058950252" duration="3605000" />
+      <workItem from="1718179814130" duration="17754000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
