@@ -1,4 +1,4 @@
-package com.github.geje1017.regToDEA.main.finiteStateMachine;
+package com.github.geje1017.regToDEA.main.logic.finiteStateMachine;
 
 // Todo: Add exception system
 public class FiniteStateMachineOperation {
@@ -27,20 +27,16 @@ public class FiniteStateMachineOperation {
                     break;
             }
         }
-
-        System.out.print("\nConversion:");
-        convertedFSM.printDefinition();
-
         return convertedFSM;
     }
 
-    // Todo: Bug: start- and finalState not included in state (Cause: no transitions)
     /**
      * Handles the case when the input symbol is "e".
      *
      * @param fsm The FSM to be modified.
      */
     private static void convertEmptySymbol(FiniteStateMachineImplementation fsm) {
+
         State startEndState = new State();
 
         fsm.addStartState(startEndState);
@@ -53,13 +49,13 @@ public class FiniteStateMachineOperation {
         }
     }
 
-    // Todo: Bug: start- and finalState not included in state (Cause: no transitions)
     /**
      * Handles the case when the input symbol is "0/".
      *
      * @param fsm The FSM to be modified.
      */
     private static void convertZeroSymbol(FiniteStateMachineImplementation fsm) {
+
         State startState = new State();
         fsm.addStartState(startState);
 
@@ -77,6 +73,7 @@ public class FiniteStateMachineOperation {
      * @param inputSymbol The input symbol.
      */
     private static void convertRegularSymbol(FiniteStateMachineImplementation fsm, String inputSymbol) {
+
         State startState = new State();
         State finalState = new State();
 
@@ -121,11 +118,7 @@ public class FiniteStateMachineOperation {
         }
 
         concatenatedFsm.finalStates.addAll(fsm2.finalStates);
-
         concatenatedFsm.setExpression(fsm1.getExpression() + "," + fsm2.getExpression());
-
-        System.out.print("\nConcatenation:");
-
         return concatenatedFsm;
     }
 
@@ -142,16 +135,14 @@ public class FiniteStateMachineOperation {
 
         State fsm1StartState = fsm1.getStartState();
 
-        alternatedFsm.transitions.addAll(fsm1.transitions);
+        alternatedFsm.addAllTransitions(fsm1.transitions);
         alternatedFsm.startStates.addAll(fsm1.startStates);
         alternatedFsm.finalStates.addAll(fsm1.finalStates);
 
-        // Replace the start states of both fsm1 and fsm2 with a new shared start state
+        // Replace the start states of fsm1 and fsm2 with a new shared start state
         for (Transition fsm2Transition : fsm2.transitions) {
-
             State tempSourceState = fsm2Transition.getSourceState();
             State tempTargetState = fsm2Transition.getTargetState();
-
             if (fsm2Transition.getSourceState().equals(fsm2.getStartState())) {
                 tempSourceState = fsm1StartState;
             }
@@ -159,15 +150,10 @@ public class FiniteStateMachineOperation {
                 tempTargetState = fsm1StartState;
             }
             alternatedFsm.addTransition(tempSourceState, fsm2Transition.getInputSymbol(), tempTargetState);
-
         }
 
         alternatedFsm.finalStates.addAll(fsm2.finalStates);
-
         alternatedFsm.setExpression(fsm1.getExpression() + "|" + fsm2.getExpression());
-
-        System.out.print("\nAlternation:");
-
         return alternatedFsm;
     }
 
@@ -199,9 +185,6 @@ public class FiniteStateMachineOperation {
         }
 
         positiveClosureFsm.setExpression("(" + positiveClosureFsm.getExpression() + ")+");
-
-        System.out.print("\nKleene Closure:");
-
         return positiveClosureFsm;
     }
 
@@ -213,13 +196,11 @@ public class FiniteStateMachineOperation {
      */
     public static FiniteStateMachineImplementation applyKleeneClosure(FiniteStateMachineImplementation fsm) {
 
+        // Extend positiveClosure()
         FiniteStateMachineImplementation kleeneClosureFsm = applyPositiveClosure(fsm);
         convertEmptySymbol(kleeneClosureFsm);
 
-        kleeneClosureFsm.setExpression("(" + kleeneClosureFsm.getExpression() + ")*");
-
-        System.out.print("\nKleene Closure:");
-
+        kleeneClosureFsm.setExpression(kleeneClosureFsm.getExpression() + "*");
         return kleeneClosureFsm;
 
     }

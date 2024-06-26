@@ -1,4 +1,4 @@
-package com.github.geje1017.regToDEA.main.finiteStateMachine;
+package com.github.geje1017.regToDEA.main.logic.finiteStateMachine;
 
 /**
  * Represents a transition between two states in an EA.
