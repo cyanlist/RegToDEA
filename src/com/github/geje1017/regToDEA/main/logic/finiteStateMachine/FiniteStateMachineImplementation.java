@@ -1,7 +1,8 @@
 package com.github.geje1017.regToDEA.main.logic.finiteStateMachine;
 
+import com.github.geje1017.regToDEA.main.logic.CustomHashSet;
+
 import java.util.ArrayList;
-import java.util.HashSet;
 
 public class FiniteStateMachineImplementation {
 
@@ -27,78 +28,44 @@ public class FiniteStateMachineImplementation {
         transitions.add(new Transition(sourceState, inputSymbol, targetState));
     }
 
-    public void printDefinition() {
-
-        // Expression
-        System.out.println(" " + expression);
-        // States (Q)
-        HashSet<State> uniqueStates = new HashSet<>();
-        for (Transition transition : transitions) {
-            if (transition.getSourceState() != null) {
-                uniqueStates.add(transition.getSourceState());
-            }
-            uniqueStates.add(transition.getTargetState());
-        }
-        System.out.println("Q=" + uniqueStates);
-
-        // Input symbols (Σ)
-        HashSet<String> inputSymbols = new HashSet<>();
-        for (Transition transition : transitions) {
-            inputSymbols.add(transition.getInputSymbol());
-        }
-        System.out.println("∑=" + inputSymbols);
-
-        // Transition (δ: Q x ∑ --> Q)
-        System.out.println("δ: Q x ∑ --> Q: [");
-        for (Transition transition : transitions) {
-            System.out.println("\t" + transition);
-        }
-        System.out.println("]");
-
-        // Start states
-        System.out.println("Start states=" + startStates);
-
-        // Final states
-        System.out.println("F=" + finalStates);
-    }
-
     @Override
     public String toString() {
 
-        String res = "";
+        StringBuilder res = new StringBuilder();
         // Expression
-        res += ("Current evaluated expression: " + expression);
+        res.append("Current evaluated expression: ").append(expression);
         // States (Q)
-        HashSet<State> uniqueStates = new HashSet<>();
+        res.append("\nM=(Q,∑,δ,S,F)");
+        CustomHashSet<State> uniqueStates = new CustomHashSet<>();
         for (Transition transition : transitions) {
             if (transition.getSourceState() != null) {
                 uniqueStates.add(transition.getSourceState());
             }
             uniqueStates.add(transition.getTargetState());
         }
-        res += ("\nQ=" + uniqueStates);
+        res.append("\nQ=").append(uniqueStates);
 
         // Input symbols (Σ)
-        HashSet<String> inputSymbols = new HashSet<>();
+        CustomHashSet<String> inputSymbols = new CustomHashSet<>();
         for (Transition transition : transitions) {
             inputSymbols.add(transition.getInputSymbol());
         }
-        res += ("\n∑=" + inputSymbols);
+        res.append("\n∑=").append(inputSymbols);
 
         // Transition (δ: Q x ∑ --> Q)
-        res += ("\nδ: Q x ∑ --> Q: [");
+        res.append("\nδ: Q x ∑ --> Q: {");
         for (Transition transition : transitions) {
-            res += ("\n\t" + transition);
+            res.append("\n\t").append(transition);
         }
-        res += ("]");
+        res.append("}");
 
         // Start states
-        res += ("\nStart states=" + startStates);
+        res.append("\nS=").append(startStates);
 
         // Final states
-        res += ("\nF=" + finalStates);
+        res.append("\nF=").append(finalStates);
 
-        return res;
+        return res.toString();
     }
 
     // Getter and setter methods

@@ -5,17 +5,25 @@ import java.awt.*;
 
 public class Frame extends JFrame {
 
-    private final Controller controller;
+    private static final String DEFAULT_REGEX = "(DEA|Expressions) , sind , cool , (!)+";
 
+    private Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
     private final JPanel inputPanel = new JPanel(new FlowLayout());
     private final JPanel resultPanel = new JPanel(new BorderLayout());
-    private final JTextField textField = new JTextField("(DEA|NEA) , sind , cool , (!)+", 20);
-    private final JButton button = new JButton("Convert");
+    private final JTextField textField = new JTextField(DEFAULT_REGEX);
+    private final JButton convertButton = new JButton("Convert");
 
     public Frame() {
-        Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
+        initializeFrame();
+        initializeInputPanel();
+        initializeResultPanel();
 
-        // Set the size of the window to 80% of the maximum screen size
+        this.convertButton.addActionListener(new ConvertButtonController(this));
+        this.setVisible(true);
+    }
+
+    private void initializeFrame() {
+        screenSize = Toolkit.getDefaultToolkit().getScreenSize();
         int frameWidth = (int) (screenSize.width * 0.8);
         int frameHeight = (int) (screenSize.height * 0.8);
         this.setSize(frameWidth, frameHeight);
@@ -23,27 +31,29 @@ public class Frame extends JFrame {
         this.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
         this.setLocationRelativeTo(null);
         this.setLayout(new BorderLayout());
+    }
 
-        this.controller = new Controller(this);
-
-        // Input Panel
+    private void initializeInputPanel() {
+        Dimension tempDimension = new Dimension(screenSize.width/2, textField.getPreferredSize().height);
+        textField.setPreferredSize(tempDimension);
         inputPanel.add(new JLabel("Regular Expression:"));
         inputPanel.add(textField);
-        inputPanel.add(button);
+        inputPanel.add(convertButton);
+        this.add(inputPanel, BorderLayout.PAGE_START);
+    }
 
-        // Result Panel
+    private void initializeResultPanel() {
         resultPanel.setLayout(new BoxLayout(resultPanel, BoxLayout.Y_AXIS));
 
         JScrollPane scrollPane = new JScrollPane(resultPanel);
         scrollPane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED);
         scrollPane.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
 
-        this.add(inputPanel, BorderLayout.PAGE_START);
+        JScrollBar verticalScrollBar = scrollPane.getVerticalScrollBar();
+        verticalScrollBar.setUnitIncrement(16);
+        verticalScrollBar.setBlockIncrement(50);
+
         this.add(scrollPane, BorderLayout.CENTER);
-
-        this.button.addActionListener(this.controller);
-
-        this.setVisible(true);
     }
 
     public String getInputText() {
@@ -57,13 +67,7 @@ public class Frame extends JFrame {
     }
 
     public void addResult(String text) {
-
-        JTextArea textArea = new JTextArea(text + "\n");
-        textArea.setPreferredSize(new Dimension(this.getWidth()/2, textArea.getPreferredSize().height));
-        textArea.setWrapStyleWord(true);
-        textArea.setLineWrap(true);
-        textArea.setEditable(false);
-
+        JTextArea textArea = createTextArea(text);
         JPanel centeredPanel = new JPanel(new FlowLayout(FlowLayout.CENTER));
         centeredPanel.add(textArea);
 
@@ -72,4 +76,13 @@ public class Frame extends JFrame {
         resultPanel.repaint();
     }
 
+    private JTextArea createTextArea(String text) {
+        JTextArea textArea = new JTextArea(text + "\n");
+        Dimension tempDimension = new Dimension(screenSize.width/2, textArea.getPreferredSize().height);
+        textArea.setPreferredSize(tempDimension);
+        textArea.setWrapStyleWord(true);
+        textArea.setLineWrap(true);
+        textArea.setEditable(false);
+        return textArea;
+    }
 }

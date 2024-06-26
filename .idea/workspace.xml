@@ -4,24 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5788b166-9d1f-4da8-9b8a-2d6389b1eb0e" name="Changes" comment="add project progess">
-      <change afterPath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/main/gui/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/main/gui/Frame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/test/CollapsiblePanelExample.java" afterDir="false" />
+    <list default="true" id="5788b166-9d1f-4da8-9b8a-2d6389b1eb0e" name="Changes" comment="Update project progess">
+      <change afterPath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/main/gui/ConvertButtonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/main/logic/CustomHashSet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/main/finiteStateMachine/FiniteStateMachineImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/main/logic/finiteStateMachine/FiniteStateMachineImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/main/finiteStateMachine/FiniteStateMachineInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/main/finiteStateMachine/FiniteStateMachineOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/main/logic/finiteStateMachine/FiniteStateMachineOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/main/finiteStateMachine/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/main/logic/finiteStateMachine/State.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/main/finiteStateMachine/Transition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/main/logic/finiteStateMachine/Transition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/main/gui/StringInputReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/main/gui/StringInputReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/main/postfix/ExpressionConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/main/postfix/ExpressionEvaluator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/test/tests/ExpressionConverterTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/test/tests/ExpressionEvaluatorTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/test/tests/StateTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/test/tests/TransitionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/main/gui/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/main/gui/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/main/gui/Frame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/main/gui/Frame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/main/logic/finiteStateMachine/FiniteStateMachineImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/main/logic/finiteStateMachine/FiniteStateMachineImplementation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +41,10 @@
     &quot;accountId&quot;: &quot;3ee87dcc-243f-437f-9438-bb7ad74119ea&quot;
   }
 }</component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -66,61 +59,61 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ArtCreatorGUI.executor": "Run",
-    "Application.CollapsiblePanelExample.executor": "Run",
-    "Application.ExpressionEvaluator.executor": "Run",
-    "Application.Main (1).executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.PostfixEvaluator.executor": "Run",
-    "Application.SimpleGraphDraw.executor": "Run",
-    "Application.StringInputReader.executor": "Run",
-    "Application.com.github.geje1017.regToDEA.convertToDEAVersuch3.Main.executor": "Run",
-    "Application.com.github.geje1017.regToDEA.ea.Main.executor": "Run",
-    "Application.com.github.geje1017.regToDEA.main.Main.executor": "Run",
-    "Application.com.github.geje1017.regToDEA.main.gui.StringInputReader.executor": "Run",
-    "Application.com.github.geje1017.regToDEA.postfix.ExpressionEvaluator.executor": "Run",
-    "Application.com.github.geje1017.regToDEA.sonstiges.Main.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "JUnit.DEATest.executor": "Run",
-    "JUnit.DEATest.firstTest.executor": "Run",
-    "JUnit.DEATest.testKleeneClosure.executor": "Run",
-    "JUnit.DEATest.testSetUp.executor": "Run",
-    "JUnit.ExpressionConverterTest.executor": "Run",
-    "JUnit.ExpressionConverterTest.infixToPostfix_basicTest.executor": "Run",
-    "JUnit.ExpressionConverterTest.test_concatenation.executor": "Run",
-    "JUnit.StateTest.executor": "Run",
-    "JUnit.StateTest.testGetName.executor": "Run",
-    "JUnit.StateTest.testSetBlankName.executor": "Run",
-    "JUnit.StateTest.testSetNullName.executor": "Run",
-    "JUnit.TransitionTest.executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW": "true",
-    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW": "true",
-    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "393",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/jenni/OneDrive/Dokumente/02_Hobbies/Programming/GitHub/repositories/cyanlist",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.19628906",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.updates",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ArtCreatorGUI.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CollapsiblePanelExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExpressionEvaluator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PostfixEvaluator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SimpleGraphDraw.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringInputReader.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.github.geje1017.regToDEA.convertToDEAVersuch3.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.github.geje1017.regToDEA.ea.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.github.geje1017.regToDEA.main.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.github.geje1017.regToDEA.main.gui.StringInputReader.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.github.geje1017.regToDEA.postfix.ExpressionEvaluator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.github.geje1017.regToDEA.sonstiges.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.DEATest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DEATest.firstTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DEATest.testKleeneClosure.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DEATest.testSetUp.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ExpressionConverterTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ExpressionConverterTest.infixToPostfix_basicTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ExpressionConverterTest.test_concatenation.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StateTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StateTest.testGetName.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StateTest.testSetBlankName.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StateTest.testSetNullName.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TransitionTest.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW&quot;: &quot;true&quot;,
+    &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW&quot;: &quot;true&quot;,
+    &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH&quot;: &quot;393&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jenni/OneDrive/Dokumente/02_Hobbies/Programming/GitHub/repositories/cyanlist&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.19628906&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.updates&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\jenni\OneDrive\Dokumente\02_Hobbies\Programming\IntelliJ\RegToDEA\src" />
@@ -133,7 +126,7 @@
       <module name="RegToDea" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.geje1017.regToDEA.main.gui.*" />
+          <option name="PATTERN" value="com.github.geje1017.regToDEA.main.gui.Frame" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,7 +139,7 @@
       <module name="RegToDea" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.geje1017.regToDEA.test.*" />
+          <option name="PATTERN" value="com.github.geje1017.regToDEA.main.logic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -237,8 +230,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17890.1" />
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17890.1" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
       </set>
     </attachedChunks>
   </component>
@@ -292,6 +285,8 @@
       <workItem from="1719304897298" duration="5517000" />
       <workItem from="1719343126085" duration="989000" />
       <workItem from="1719345310328" duration="11151000" />
+      <workItem from="1719398221002" duration="1730000" />
+      <workItem from="1719402228780" duration="7352000" />
     </task>
     <task id="LOCAL-00001" summary="add project progess">
       <option name="closed" value="true" />
@@ -309,7 +304,23 @@
       <option name="project" value="LOCAL" />
       <updated>1718221186893</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Update project progess">
+      <option name="closed" value="true" />
+      <created>1719398271341</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1719398271341</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Update project progess">
+      <option name="closed" value="true" />
+      <created>1719398320912</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1719398320912</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,6 +339,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add project progess" />
-    <option name="LAST_COMMIT_MESSAGE" value="add project progess" />
+    <MESSAGE value="Update project progess" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update project progess" />
   </component>
 </project>
