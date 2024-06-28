@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5788b166-9d1f-4da8-9b8a-2d6389b1eb0e" name="Changes" comment="Update project progess">
-      <change afterPath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/main/gui/ConvertButtonController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/main/logic/CustomHashSet.java" afterDir="false" />
+    <list default="true" id="5788b166-9d1f-4da8-9b8a-2d6389b1eb0e" name="Changes" comment="Improve GUI structure + appearance">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/main/gui/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/main/gui/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/main/gui/Frame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/main/gui/Frame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/main/logic/finiteStateMachine/FiniteStateMachineImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/main/logic/finiteStateMachine/FiniteStateMachineImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/main/logic/postfix/ExpressionConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/geje1017/regToDEA/main/logic/postfix/ExpressionConverter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,10 +37,10 @@
     &quot;accountId&quot;: &quot;3ee87dcc-243f-437f-9438-bb7ad74119ea&quot;
   }
 }</component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -286,7 +282,9 @@
       <workItem from="1719343126085" duration="989000" />
       <workItem from="1719345310328" duration="11151000" />
       <workItem from="1719398221002" duration="1730000" />
-      <workItem from="1719402228780" duration="7352000" />
+      <workItem from="1719402228780" duration="8499000" />
+      <workItem from="1719478849255" duration="1955000" />
+      <workItem from="1719508443046" duration="606000" />
     </task>
     <task id="LOCAL-00001" summary="add project progess">
       <option name="closed" value="true" />
@@ -320,7 +318,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719398320912</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Improve GUI structure + appearance">
+      <option name="closed" value="true" />
+      <created>1719427764324</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1719427764324</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -340,6 +346,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add project progess" />
     <MESSAGE value="Update project progess" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update project progess" />
+    <MESSAGE value="Improve GUI structure + appearance" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improve GUI structure + appearance" />
   </component>
 </project>

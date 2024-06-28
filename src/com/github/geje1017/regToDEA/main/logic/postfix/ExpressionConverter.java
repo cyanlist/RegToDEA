@@ -33,6 +33,9 @@ public class ExpressionConverter {
      * @return The resulting postfix expression.
      */
     public static String infixToPostfix(String infix) {
+
+        infix = infix.replaceAll("\\s+", ""); // White space entfernen?
+
         if (!validate(infix)) {
             throw new IllegalArgumentException("Invalid infix expression");
         }
