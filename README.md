@@ -5,13 +5,13 @@ This project is a Deterministic Finite Automaton (DFA) simulator developed as pa
 It provides a graphical user interface (GUI) and a backend logic to convert regular expressions into Deterministic Finite Automata (DFA). The project is structured into different packages, each responsible for various functionalities such as GUI management, finite state machine operations, and expression conversion.
 
 ## Table of Contents
-- [Getting Started](getting-started)
-- [Prerequisites](prerequisites)
-- [Installation](installation)
-- [Usage](usage)
-- [functionalities](functionalities)
-- [Project Structure](project-structure)
-- [Future Enhancements](future-enhancements)
+- [Getting Started](#getting-started)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Usage](#usage)
+- [functionalities](#functionalities)
+- [Project Structure](#project-structure)
+- [Future Enhancements](#future-enhancements)
 
 ## Getting Started
 
@@ -32,7 +32,7 @@ It provides a graphical user interface (GUI) and a backend logic to convert regu
 - Enter a regular expression in the text field.
 - Click the "Convert" button to view the process for creating a DFA
 
-## Functionalities
+## Functionalities 
 
 ### Regular Expression Operations
 This project supports several operations on regular expressions to facilitate pattern matching and language recognition. Below are the main operations implemented:
@@ -53,6 +53,7 @@ The project is divided into the following main packages:
 - `com.github.geje1017.regToDEA.main.logic.postfix`: Contains classes for converting and evaluating regular expressions.
 
 ## Future Enhancements
+
 ### 1. Graphical User Interface (GUI) Improvements
   - Graph Visualization: Implement graphical visualization capabilities to display DFAs as graphs, enhancing visual appeal, improving process comprehension, and facilitating better overall DFA analysis.
   - Impact: Presently, the application outputs DFAs solely in textual format. Introducing graphical visualization will enable users to visually interpret DFA structures, transitions, and states, significantly enhancing usability by providing a clearer and more intuitive representation of complex automata.
